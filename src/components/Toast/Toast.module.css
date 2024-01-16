@@ -1,0 +1,149 @@
+.container {
+    position: fixed;
+    right: 10px;
+    z-index: 10000;
+    width: 330px;
+    height: 60px;
+    background-color: white;
+    box-shadow: 0px 0px 8px 0.1px rgba(128, 128, 128, 0.315);
+    border-radius: 7px;
+    padding: 6px;
+    display: flex;
+    align-items: center;
+    padding-left: 16px;
+  }
+  @media only screen and (max-width: 769px) {
+    .container {
+      left: 0px;
+      border-radius: 0px 0px 7px 7px;
+      width: 100%;
+    }
+  }
+  
+  .open-notification {
+    animation-duration: 0.4s;
+    animation-fill-mode: forwards;
+  }
+  .open-notification-one {
+    top: 0px;
+    animation-name: openNotificationOne;
+  }
+  .open-notification-two {
+    top: 30px;
+    animation-name: openNotificationTwo;
+  }
+  .open-notification-three {
+    top: 105px;
+    animation-name: openNotificationThree;
+  }
+  @keyframes openNotificationOne {
+    from {
+      top: 0px;
+    }
+    to {
+      top: 30px;
+    }
+  }
+  @keyframes openNotificationTwo {
+    from {
+      top: 30px;
+    }
+    to {
+      top: 95px;
+    }
+  }
+  @keyframes openNotificationThree {
+    from {
+      top: 95px;
+    }
+    to {
+      top: 160px;
+    }
+  }
+  @media only screen and (max-width: 769px) {
+    .open-notification-one {
+      top: -85px;
+      animation-name: openNotificationOne;
+    }
+    .open-notification-two {
+      top: -85px;
+      animation-name: openNotificationOne;
+    }
+    .open-notification-three {
+      top: -85px;
+      animation-name: openNotificationOne;
+    }
+    @keyframes openNotificationOne {
+      from {
+        top: -85px;
+      }
+      to {
+        top: 0px;
+      }
+    }
+  }
+  
+  .close-notification {
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+  }
+  .close-notification-one {
+    animation-name: closeNotificationOne;
+    top: 30px;
+  }
+  .close-notification-two {
+    animation-name: closeNotificationTwo;
+    top: 125px;
+  }
+  .close-notification-three {
+    animation-name: closeNotificationThree;
+    top: 220px;
+  }
+  
+  @keyframes closeNotificationOne {
+    from {
+      top: 30px;
+    }
+    to {
+      top: -125px;
+    }
+  }
+  @keyframes closeNotificationTwo {
+    from {
+      top: 115px;
+    }
+    to {
+      top: -220px;
+    }
+  }
+  @keyframes closeNotificationThree {
+    from {
+      top: 200px;
+    }
+    to {
+      top: -315px;
+    }
+  }
+  @media only screen and (max-width: 769px) {
+    .close-notification-one {
+      animation-name: closeNotificationOne;
+      top: 0px;
+    }
+    .close-notification-two {
+      animation-name: closeNotificationOne;
+      top: 0px;
+    }
+    .close-notification-three {
+      animation-name: closeNotificationOne;
+      top: 0px;
+    }
+    @keyframes closeNotificationOne {
+      from {
+        top: 0px;
+      }
+      to {
+        top: -85px;
+      }
+    }
+  }
+  

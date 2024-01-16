@@ -1,0 +1,50 @@
+.menu-item{
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    font-family: 'Averta Std CY';
+    gap: 10px;
+    text-decoration: none;
+    font-style: normal;
+    padding: 12px 28px;
+
+    overflow: hidden;
+    
+}
+   
+
+
+.active{
+    background-color:var(--bg-color-hover);
+    color: var(--primary);
+}
+.active-icon{
+    display: none;
+}
+.active .icon{
+    display: none;
+}
+.active .active-icon{
+    display: block;
+}
+.title{
+    text-decoration: none;
+    white-space: nowrap;
+    font-weight: 400;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 100%;
+
+font-size: 14px;
+}
+.icon{
+   
+}
+.active-icon{
+  
+}
+.down-icon{
+    position: absolute;
+    top: 278px;
+    right: 18px;
+}

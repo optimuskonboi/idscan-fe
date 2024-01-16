@@ -1,0 +1,29 @@
+.content{
+    display: flex;
+    gap: 20px;
+    margin-bottom: 16px;
+    z-index: 1000;
+    position: relative;
+}
+.bot{
+    
+}
+.user{
+   flex-direction: row-reverse;
+}
+.answer{
+    padding: 16px;
+    
+    border-radius: 8px;
+    max-width: 70%;
+}
+.like{
+    padding-top: 10px;
+    display: flex;
+    gap: 12px;
+    
+}
+.list-icon{
+    display: flex;
+    gap: 12px;
+}

@@ -1,0 +1,109 @@
+.container{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.13);
+    z-index: 10;
+}
+.data{
+    padding: 16px;
+    height: 100%;
+    max-height: 700px;
+    overflow: auto;
+    
+}
+.data::-webkit-scrollbar {
+    width: 3px;
+    margin-left: 4px;
+}
+
+.data::-webkit-scrollbar-track {
+    border: 1px;
+}
+
+.content{
+    height: 75%;
+    width: 40%;
+    background: #fff;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+}
+
+.actions{
+    display: flex;
+    gap: 16px;
+    border-top: 1px solid rgba(0, 0, 0, 0.05);
+    align-items: center;
+    padding: 12px 12px;
+    position: relative;
+}
+.btn{
+    padding: 12px 8px;
+    border: none;
+    border-radius: 4px;
+}
+.primary{
+    color: #fff;
+    background: #0040FF;
+}
+.form{
+    display: flex;
+    gap: 18px;
+    flex-wrap: wrap;
+    padding-bottom: 30px;
+}
+.left{
+    flex: 1;
+    display: flex;
+   justify-content: space-between;
+    flex-wrap: wrap;
+}
+.right{
+    flex: 1;
+}
+.date{
+    display: flex;
+    gap: 18px;
+    width: 100%;
+}
+.item{
+    flex: 1;
+    width: 100%;
+}
+.title{
+    font-size: 14px;
+    font-weight: 700;
+    color:#141ED2 ;
+    margin-bottom: 12px;
+}
+.device{
+    display: flex;
+    gap: 8px;
+    align-items: flex-end;
+    padding-top: 24px;
+    
+}
+.icon{
+    
+    display: flex;
+  
+  
+    border-radius: 4px;
+    cursor: pointer;
+}
+.add{
+    background: rgba(0, 64, 255, 0.15);
+    padding: 18px;
+    /* margin-bottom: 2px; */
+}
+.delete{
+    background-color: rgba(235, 45, 75, 0.15);
+    padding: 16px;
+    margin-bottom: 1px;
+}

@@ -1,0 +1,19 @@
+.form-group{
+    width: 100%;
+    position: relative;
+}
+.form-control{
+    padding: 20px 8px;
+    width: 100%;
+    border: 1px solid #E3E3E6;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.04), 0px 4px 8px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+    outline: none;
+}
+.icon{
+    display: flex;
+    gap: 12px;
+    position: absolute;
+    right: 16px;
+    top: 16px;
+}

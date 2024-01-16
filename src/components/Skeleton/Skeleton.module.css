@@ -1,0 +1,24 @@
+.wrapper {
+  animation: pulse 700ms infinite alternate;
+  display: inline-block;
+}
+.wrapper-2 {
+  animation: pulse-black 700ms infinite alternate;
+  display: inline-block;
+}
+@keyframes pulse-black {
+  from {
+    background-color: #2b2b2b;
+  }
+  to {
+    background-color: #1b1b1b;
+  }
+}
+@keyframes pulse {
+  from {
+    background-color: #dddddd81;
+  }
+  to {
+    background-color: #eeeeee6b;
+  }
+}

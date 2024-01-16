@@ -1,0 +1,17 @@
+.btn {
+    padding: 16px 0;
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    text-align: center;
+    border-radius: 4px;
+    background-color: #0040FF;
+    color: #fff;
+    font-weight: 600;
+    cursor: pointer;
+    width: 100%;
+    outline: none;
+    border: none;
+}
+
+.btn:hover {
+    opacity: 0.7;
+}

@@ -1,0 +1,104 @@
+.form-group {
+    padding-top: 16px;
+    position: relative;
+}
+
+.input {
+    width: 100%;
+    padding: 14px 8px;
+    outline: none;
+    border: 1px solid #cccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.isIcon {
+    padding-left: 44px;
+}
+
+
+
+.icon {
+    position: absolute;
+    top: 30px;
+    left: 12px;
+}
+
+.error {
+    color: #F25B60;
+    width: 302px;
+    margin-top: 8px;
+    margin-left: auto;
+    margin-right: 0;
+    display: block;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.title {
+
+    font-size: 14px;
+
+}
+
+.input-textbox {
+    width: 100%;
+   
+    outline: none;
+    border: 1px solid #cccc;
+    border-radius: 4px;
+    font-size: 16px;
+    margin-top: 6px;
+}
+
+.normal{
+    padding: 14px 8px;
+}
+.form-row {
+    padding: 0;
+}
+.small{
+    padding: 8.5px 8px;
+}
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.register {
+    width: 302px;
+    height: 48px;
+    padding-right: 40px;
+}
+
+.register-group {
+    width: 100%;
+}
+
+.register-error {
+    color: #F25B60
+}
+
+.icon-succes {
+    position: absolute;
+    right: 18px;
+    top: 10px;
+}
+.input-error {
+    border: 1px solid #FF3300;
+    color:  #FF3300;
+}
+.input-error::placeholder {
+    color: #FF3300;
+  }
+  .span-error{
+    position: absolute;
+    bottom: -20px;
+    left: 0px;
+    font-size: 13px;
+  }
+

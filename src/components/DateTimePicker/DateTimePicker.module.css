@@ -1,0 +1,54 @@
+.form-control{
+    position: relative;
+    width: 100%;
+}
+.icon{
+    position: absolute;
+    right: 12px;
+    top: 40px;
+}
+.icon-small{
+    position: absolute;
+    right: 12px;
+    top: 16px;
+}
+.date{
+  
+    background: #FFFFFF;
+    font-family: 'Averta Std CY';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+    width: 100%;
+    outline: none;
+    margin-top: 8px;
+    margin-bottom: 12px;
+}
+.normal{
+    padding: 12px;
+}
+.small{
+    padding: 8px;
+}
+
+.date::-webkit-calendar-picker-indicator {
+    background: transparent;
+    bottom: 0;
+    color: transparent;
+    cursor: pointer;
+    height: auto;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: auto;
+
+   
+}
+.title {
+    color: rgba(0, 0, 0, 0.7);
+    font-size: 14px;
+  
+}

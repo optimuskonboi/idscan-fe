@@ -1,0 +1,168 @@
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: linear-gradient(180deg, #0C0E8D 0%, #06074B 100%);
+
+ 
+}
+.content{
+    background: #ffffff;
+    width: 430px;
+    height: 611px;
+    border:1px solid #cccccc;
+    border-radius:  24px;
+    padding: 0 30px;
+    margin-left: 900px;
+    
+}
+.logo{
+    padding-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+.title{
+    font-style: normal;
+    text-align: left !important;
+}
+h1{
+    font-size: 20px;
+    font-weight: 700;
+    padding-bottom: 4px;
+}
+.description{
+    color: rgba(0, 0, 0, 0.4);
+}
+.btn{
+    padding: 12px 0;
+    margin-top: 16px;
+    background: linear-gradient(180deg, #0081E9 0%, #044DBB 100%);
+    position: relative;
+    z-index: 1000;
+}
+.forgot{
+    font-weight: 600;
+    font-size: 16px;
+    text-align: center;
+    padding-top: 16px;
+    color: #0040FF;
+}
+.signup{
+    text-align: center;
+    padding-top: 92px;
+}
+.signup-link{
+    font-weight: 600;
+    font-size: 16px;
+    padding-left: 8px;
+    text-align: center;
+    color: #0040FF;
+}
+.signup-link:hover{
+    opacity: 0.6;
+}
+.forgot:hover{
+    opacity: 0.6;
+}
+.gradient{
+    position: absolute;
+    width: 334px;
+    height: 754px;
+    left: 350px;
+    top: 0px;
+
+    background: linear-gradient(180deg, #146284 0%, rgba(12, 108, 78, 0) 100%);
+}
+.image{
+    position: absolute;
+    width: 221px;
+    height: 450px;
+    left: 407px;
+    top: 337px;
+    background-image: url('../../assets/images/Group\ 1\ 1833\ \(1\).png');
+}
+.icon{
+    position: absolute;
+
+left: 628px;
+top: 309px;
+
+}
+.icon-left{
+    position: absolute;
+
+left: 309px;
+top: 488px;
+}
+.cricle{
+    position: absolute;
+width: 448.64px;
+height: 128px;
+left: 293px;
+top: 741px;
+background-image: url('../../assets/images/Group\ 1000001832.png');
+}
+.start-2{
+    position: absolute;
+width: 3px;
+height: 242px;
+left: 293px;
+top: 0px;
+background-image: url('../../assets/images/Group\ 1000001844.png');
+
+}
+.start-1{
+    background-image: url('../../assets/images/Group\ 1000001843.png');
+    position: absolute;
+    width: 3px;
+    height: 797px;
+    left: 225px;
+    top: 0px;
+}
+
+.start-3{
+    background-image: url('../../assets/images/Group\ 1000001839.png');
+    position: absolute;
+    width: 3px;
+    height: 473px;
+    left: 738px;
+    top: 3px;
+
+}
+.start-4{
+    background-image: url('../../assets/images/Group\ 1000001845.png');
+    position: absolute;
+width: 3px;
+height: 877px;
+left: 807px;
+top: -14px;
+}
+.save{
+    display: flex;
+    gap: 6px;
+    align-items: center;
+    padding-top: 16px;
+}
+.save span{
+    color: rgba(0, 0, 0, 0.4);
+}
+.save input{
+    margin-top: 3px;
+}
+.background{
+    position: absolute;
+    width: 634px;
+    height: 606px;
+    right: 0;
+    top: 0;
+
+    background: url("../../assets/images/unsplash_Jn2EaLLYZfY.png");
+    mix-blend-mode: lighten;
+ 
+}
+.back{
+    padding-top: 30px;
+    padding-bottom: 16px;
+    cursor: pointer;
+}

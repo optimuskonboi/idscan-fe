@@ -1,0 +1,35 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.loading {
+  border-radius: 100%;
+  animation: loading 1s linear 0s infinite;
+  border-style: solid;
+  border-color: rgba(128, 128, 128, 0.062) rgba(128, 128, 128, 0.062)
+    rgba(128, 128, 128, 0.062) rgba(128, 128, 128, 0.062);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@keyframes loading {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* Styles color */
+.primary {
+  border-top-color: #0040FF;
+}
+.danger {
+  border-top-color: #FF3300;
+}
+.default {
+  border-top-color: grey;
+}

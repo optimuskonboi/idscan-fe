@@ -1,0 +1,88 @@
+.content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: #07070744;
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    width: 310px;
+    height: 264px;
+    border-radius: 4px;
+    background-color: #ffffff;
+    display: flex;
+    padding: 0 24px;
+    align-items: center;
+    flex-direction: column;
+    animation: down 0.2s linear;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+@keyframes down {
+    0% {
+        top: 200px;
+    }
+
+    100% {
+        top: 349px;
+    }
+}
+
+.img {
+    padding-top: 30px;
+    padding-bottom: 16px;
+}
+
+.description {
+    display: flex;
+
+    align-items: center;
+    flex-direction: column;
+    gap: 4px;
+    padding-bottom: 16px;
+}
+
+.name {
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.title {
+    font-weight: 400;
+    font-size: 14px;
+
+
+    text-align: center;
+
+
+
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.actions {
+    display: flex;
+    gap: 4px;
+}
+
+.btn {
+    padding: 8px 32px;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-cancel {
+    background: #EBEBEB;
+}
+
+.btn-accept {
+    background: var(--danger);
+    color: #FFFFFF;
+}

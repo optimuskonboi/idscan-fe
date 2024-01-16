@@ -1,0 +1,101 @@
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: linear-gradient(180deg, rgba(0, 4, 15, 0.06) 0%, rgba(0, 4, 15, 0.58) 100%);
+    background-image: url('../../assets/images/Bglogin.png');
+    background-size: 100% 100%;
+
+ 
+}
+.content{
+    background: #ffffff;
+    width: 370px;
+    height: 481px;
+    border:1px solid #cccccc;
+    border-radius:12px;
+    padding: 0 30px; 
+}
+.logo{
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+
+}   
+.title{
+    padding-top: 4px;
+    font-style: normal;
+    font-size: 24px;
+}
+.h1{
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    padding-bottom: 4px;
+}
+.description{
+    text-align: center;
+    color: rgba(0, 0, 0, 0.4);
+    margin-bottom: 12px;
+}
+.btn{
+    padding: 12px 0;
+    margin-top: 24px;
+    background:#0040FF;
+    z-index: 100000;
+    position: relative;
+}
+.forgot{
+    font-weight: 600;
+    font-size: 16px;
+    text-align: center;
+    padding-top: 16px;
+    color: #0040FF;
+    position: relative;
+    z-index: 1000;
+}
+.signup{
+    text-align: center;
+    padding-top: 144px;
+}
+.signup-link{
+    font-weight: 600;
+    font-size: 16px;
+    padding-left: 8px;
+    text-align: center;
+    color: #0040FF;
+}
+.signup-link:hover{
+    opacity: 0.6;
+}
+.forgot:hover{
+    opacity: 0.6;
+}
+
+.icon{
+    position: absolute;
+
+left: 628px;
+top: 309px;
+
+}
+.icon-left{
+    position: absolute;
+
+left: 309px;
+top: 488px;
+}
+
+.save{
+    display: flex;
+    gap: 6px;
+    align-items: center;
+    padding-top: 16px;
+}
+.save span{
+    color: rgba(0, 0, 0, 0.4);
+}
+.save input{
+    margin-top: 3px;
+}

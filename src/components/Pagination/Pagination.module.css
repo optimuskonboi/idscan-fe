@@ -1,0 +1,25 @@
+.content {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+.page{
+    width: 36px;
+    height: 36px;
+    font-family: 'Averta Std CY';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    padding-top: 7px;
+    cursor: pointer;
+}
+.active{
+    background-color: #0040FF!important;
+    border-radius: 50%;
+    color: #ffffff;
+}
+.icon{
+    padding-top: 4px;
+    cursor: pointer;
+}
