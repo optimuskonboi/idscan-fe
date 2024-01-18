@@ -2,13 +2,13 @@
 
 ## 1. Cài đặt
 
-2.1. Tải thư viện
+1.1. Tải thư viện
 
 ```bash
 npm install / npm install --force
 ```
 
-2.2. Chạy web ở chế độ deployment
+1.2. Chạy web ở chế độ deployment
 
 ```bash
 npm start
@@ -20,13 +20,13 @@ Web chạy ở URL:
 http://localhost:3000
 ```
 
-2.3. Build web:
+1.3. Build web:
 
 ```bash
 npm run build
 ```
 
-## 3. Cấu trúc folder
+## 2. Cấu trúc folder
 
 ```
 ├───build                        #----> folder phục vụ deploy
