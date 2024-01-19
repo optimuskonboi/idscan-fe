@@ -38,7 +38,7 @@ const Register = () => {
   };
   const handleSubmitForm = async (e) => {
     try {
-      const res = await axios.post("http://103.172.236.186:18003/authentication/sign_up", {
+      const res = await axios.post("http://cccd1.cds.vinorsoft.com/authentication/sign_up", {
         username: userName,
         password: password,
         email: email,

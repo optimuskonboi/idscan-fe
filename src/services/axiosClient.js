@@ -3,7 +3,7 @@ const header = sessionStorage.getItem("token") ?{
   authorization: `Bearer ${sessionStorage.getItem("token")}`,
 }:{}
 const axiosClient = axios.create({
-  baseURL: "http://42.96.40.237:18002/api/v1/",
+  baseURL: "http://cccd1.cds.vinorsoft.com/api/v1/",
   headers: {
     // "Content-Type": "application/json",
     ...header
@@ -22,7 +22,7 @@ axiosClient.interceptors.response.use(
     if (localStorage.getItem("token") && response.status === 401) {
       async function refreshToken() {
         const res = await axios.get(
-          "http://103.172.236.186:18003/authentication/refreshtoken",
+          "http://cccd1.cds.vinorsoft.com/authentication/refreshtoken",
           {
             headers: {
               "Content-Type": "application/json",

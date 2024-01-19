@@ -30,7 +30,7 @@ const FormCode = () => {
   const handleSubmitForm = async () => {
     try{
       if(code.length  === 6){
-        const res = await axios.post(`http://103.172.236.186:18003/authentication/validation_otp?username=${localStorage.getItem("username")}&limit=${code}`)
+        const res = await axios.post(`http://cccd1.cds.vinorsoft.com/authentication/validation_otp?username=${localStorage.getItem("username")}&limit=${code}`)
         if(res.data.code === 200){
           Toast.open("Xác thực thành công","success")
           navigate('/login')
