@@ -106,7 +106,7 @@ const ListCCCD = () => {
   const handleDownload = () => {
 
       let a = document.createElement("a");
-      a.href =`http://cccd1.cds.vinorsoft.com/api/v1/downloadFile/client/CCCD_Client.exe`
+      a.href =`http://cccd.cds.vinorsoft.com/api/v1/downloadFile/client/CCCD_Client.exe`
          
       a.click();
 

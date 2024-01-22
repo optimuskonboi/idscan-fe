@@ -25,6 +25,7 @@ const Info = ({ data, getAllCustomer, onClose }) => {
       console.log(e);
     }
   };
+  console.log(data);
   return (
     <div className={cx("container")}>
       <div className={cx("content")}>
@@ -33,8 +34,8 @@ const Info = ({ data, getAllCustomer, onClose }) => {
           <div className={cx("item")}>
             <div className={cx("title")}>Trạng thái</div>
             <div className={cx("description")}>
-              <button className={cx("status",data.status === 0 ? "not":"on")}>
-                {data.status === 0 ? "Chưa sử dụng" : "Hoạt động"}
+              <button className={cx("status",data.status === 1 ? "on":"not")}>
+                {data.status === 0 ? "Chưa sử dụng" : data.status === 1 ?"Hoạt động":"Ngương sử dụng"}
               </button>
             </div>
           </div>

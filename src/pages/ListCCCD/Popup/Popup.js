@@ -48,8 +48,8 @@ const Popup = ({ onClose, idCCCD, type, handleAddCCCD }) => {
         let a = document.createElement("a");
         a.href =
           doc === "word"
-            ? `http://cccd1.cds.vinorsoft.com/api/v1/downloadFile/document/${res.data}`
-            : `http://cccd1.cds.vinorsoft.com/api/v1/downloadFile/documentpdf/${res.data}`;
+            ? `http://cccd.cds.vinorsoft.com/api/v1/downloadFile/document/${res.data}`
+            : `http://cccd.cds.vinorsoft.com/api/v1/downloadFile/documentpdf/${res.data}`;
         a.click();
       }
     } catch (e) {

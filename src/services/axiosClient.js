@@ -3,7 +3,7 @@ const header = sessionStorage.getItem("token") ?{
   authorization: `Bearer ${sessionStorage.getItem("token")}`,
 }:{}
 const axiosClient = axios.create({
-  baseURL: "http://cccd1.cds.vinorsoft.com/api/v1/",
+  baseURL: "http://cccd.cds.vinorsoft.com/api/v1/",
   headers: {
     // "Content-Type": "application/json",
     ...header
