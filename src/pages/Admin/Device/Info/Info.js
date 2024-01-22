@@ -35,7 +35,7 @@ const Info = ({ data, getAllCustomer, onClose }) => {
             <div className={cx("title")}>Trạng thái</div>
             <div className={cx("description")}>
               <button className={cx("status",data.status === 1 ? "on":"not")}>
-                {data.status === 0 ? "Chưa sử dụng" : data.status === 1 ?"Hoạt động":"Ngương sử dụng"}
+                {data.status === 0 ? "Chưa sử dụng" : data.status === 1 ?"Hoạt động":"Ngưng sử dụng"}
               </button>
             </div>
           </div>
